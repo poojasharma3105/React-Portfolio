@@ -4,12 +4,13 @@ import imagifyImg from '../assets/imagify.webp'
 import wanderlustImg from '../assets/wanderlust.webp'
 import visualizerImg from '../assets/visualizer.webp'
 import expenseImg from '../assets/expense.webp'
+import newsXpressImg from '../assets/newsxpress.webp' // Make sure to add this image to your assets folder
 
 const projectDetails = [
   {
     id: 1,
     title: "Go-Buddy",
-    main: "A smart travel assistant platform offering personalized recommendations and itineraries. ",
+    main: "A smart travel assistant platform offering personalized recommendations and itineraries.",
     image: goBuddyImg,
     demoLink: "https://go-buddy-zl60.onrender.com/",
     sourceLink: "https://github.com/poojasharma3105/Go-Buddy"
@@ -45,6 +46,14 @@ const projectDetails = [
     image: visualizerImg,
     demoLink: "https://sorting-visualizer-bvf4.onrender.com/",
     sourceLink: "https://github.com/poojasharma3105/Sorting-Visualizer"
+  },
+  {
+    id: 6,
+    title: "NewsXpress",
+    main: "A modern news web application that fetches and displays the latest articles across categories using live news APIs.",
+    image: newsXpressImg,
+    demoLink: "https://newsxpress-evdl.onrender.com/",
+    sourceLink: "https://github.com/poojasharma3105/NewsXpress"
   }
 ]
 
